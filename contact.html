@@ -9,7 +9,7 @@
     <body>
         
         <!--Nav Menu-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
                 <a class="navbar-brand" href="#">Richard Vargas</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,13 +19,13 @@
                     <div class="collapse navbar-collapse" id="navWrapper">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="./index.html">About <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Portfolio</a>
+                                <a class="nav-link" href="./portfolio.html">Portfolio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link" href="./contact.html">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -34,13 +34,10 @@
         </nav>
 
         <div id="main-container" class="container">
+            
             <section class="main-section">
                 <h1>Contact</h1>
-            </section>    
-        </div>
-
-        <div id="main-container" class"container">
-            <section class="main-section">
+                <!--Starting the Form Group for First Name, Last Name, Email Input, & Message Board-->
                 <div class="row justify-content-md-center">
                     <div class="col-md-auto">
                         <form>
@@ -55,50 +52,30 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label for="inputAddress">Address</label>
-                                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                                <label for="inputEmail">Email</label>
+                                <input type="text" class="form-control" id="inputEmail" placeholder="johndoe@gmail.com">
                             </div>
                             <div class="form-group">
-                                <label for="inputAddress2">Address 2</label>
-                                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                                <label for="exampleFormControlMessage">Message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="9"></textarea>
                             </div>
-                            <div class="form-row">
-                                <div class="form-group col-md-6">
-                                    <label for="inputCity">City</label>
-                                    <input type="text" class="form-control" id="inputCity">
-                                </div>
-                                <div class="form-group col-md-4">
-                                    <label for="inputState">State</label>
-                                    <select id="inputState" class="form-control">
-                                        <option selected>Choose...</option>
-                                        <option>...</option>
-                                    </select>
-                                </div>
-                                <div class="form-group col-md-2">
-                                    <label for="inputZip">Zip</label>
-                                    <input type="text" class="form-control" id="inputZip">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="gridCheck">
-                                    <label class="form-check-label" for="gridCheck">
-                                        Check me out
-                                    </label>
-                                </div>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Sign in</button>
+                            <button type="submit" class="btn btn-primary">Submit</button>
                         </form>
                     </div>
                 </div>
+
             </section>
+            
+        </div>
+
+            
         </div>
 
         <footer>
             <div class="container">
                 <div class="row justify-content-md-center">
                     <div class="col-md-auto">
-                    Copyright ©
+                    Copyright © R. Vargas
                     </div>
                 </div>
             </div>
