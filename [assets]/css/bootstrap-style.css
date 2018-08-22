@@ -93,15 +93,17 @@ nav a:first-child {
 }
 
 footer {
+    height: 40px;
+    width: 100%;
+    bottom: 0;
     padding: 30px 0;
     clear: both;
     font-size: 12px;
-    color: #fff;
-    color: #ccc;
+    color: white;
     text-align: center;
     background: #666;
     border-top: 8px solid #dc3545;
-    height: 50px;
+    position: absolute;
 }
 
 h3, h2 {
